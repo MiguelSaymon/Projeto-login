@@ -18,6 +18,7 @@ body,html {
     background-color: #5f2c82;
     height: 100vh;
     width: 100vw;
+    background-image: linear-gradient(to top, #7f7f7f, #bcbcbc);
 }
 
 main {
@@ -35,7 +36,7 @@ main {
 
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 520px;
     border-radius: 20px;
     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.459);
 
@@ -64,3 +65,57 @@ main {
 #form {
     font-size: 0.8em;
 }
+
+form > .campo {
+    background-color: #707070a4;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+.campo > label {
+    display: none;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #7f7f7f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: #707070;
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    padding-top: 5px;
+    margin-top: 5px;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: 1px solid #b4b4b4;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+form > a.botao:hover {
+    background-color: #6e6e6ead;
+}
+
+form > a.botao > i {
+    font-size: 0.8em;
+}
+
+    
