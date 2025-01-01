@@ -12,6 +12,7 @@
 
     #login {
         width: 80vw;
+        height: 285px;
     }
 
     #login > #img {
@@ -35,6 +36,7 @@
 
     #login {
         width: 950px;
+        height: 300px;
     }
 
     #login > #img {
@@ -54,5 +56,24 @@
 
     #form > h1 {
         font-size: 2em;
+    }
+
+    .campo > span {
+        color: black;
+        /*background-color: black;*/
+        font-size: 2em;
+        width: 40px;
+        padding: 0px;
+    }
+
+    .campo > input {
+        background-color: whitesmoke;
+        font-size: 1em;
+        width: calc(100% - 46px);
+        /*transform: translateY(-17px);*/
+        height: 100%;
+        border: 0px;
+        border-radius: 8px;
+        padding: 5px;
     }
 }
